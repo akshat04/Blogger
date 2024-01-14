@@ -1,0 +1,41 @@
+<html lang="en">
+<%- include("../partials/head.ejs") %>
+
+<body>
+  <%- include("../partials/nav.ejs") %>
+
+  <div class="details content">
+    <h2><%= blog.title %></h2>
+    <div class="content">
+      <p><%= blog.body %></p>
+    </div>
+    <a class="delete" data-doc="<%= blog._id %>"><img src="/trashcan.svg" alt="delete"></a>
+  </div>
+
+  <%- include("../partials/footer.ejs") %>
+
+  <script>
+    const trashcan = document.querySelector('a.delete');
+
+    trashcan.addEventListener('click', (e) => {
+      // trashcan= variable created to refer 'a' tag , 
+      //dataset = to referece data-doc
+      //doc = doc part of datset-doc
+      const endpoint = `/blogs/${trashcan.dataset.doc}`;
+
+
+      // AJAX request
+      fetch(endpoint, {
+        method: 'DELETE',
+      })
+      //response.json = json data
+      .then(response => response.json())
+      // this passes into an actual js object that we can use.
+      //data = jsobject
+      .then(data => window.location.href = data.redirect)
+      .catch(err => console.log(err));
+    });
+    
+  </script>
+</body>
+</html>
