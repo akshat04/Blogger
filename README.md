@@ -34,7 +34,7 @@
             <p><strong>Installation:</strong></p>
             <code>git clone https://github.com/akshat04/Blogger.git</code><br>
             <code>cd Blogger</code><be>
-            <p> You need to set up a MongoDB connection on your local device. And make changes in the App.js file for it to run on your local machine.
+            <p> You need to set up a MongoDB connection on your local device. And make changes in the App.js file for it to run on your local machine. </p>
             <code>npm install</code><br>
             <code>node app.js</code>
         </section>
