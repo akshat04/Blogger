@@ -52,7 +52,7 @@
  <section>
             <h2>Contact</h2>
             <p>Project Link: <a href="https://github.com/akshat04/blogger">https://github.com/akshat04/blogger</a></p>
-            <p>Email: akshatshrivastava0407@example.com</p>
+            <p><a href="mailto:akshatshrivastava0407@gmail.com">Email: akshatshrivastava0407@gmail.com</a></p>
         </section>
     </div>
 </body>
