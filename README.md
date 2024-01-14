@@ -5,7 +5,7 @@
 
   <section>
             <h2>Project Overview</h2>
-            <p>This project is a personal blog website built using Node.js. It allows users to read, write, and delete blog posts. The website features a user-friendly interface and is designed to be responsive and accessible on various devices.</p>
+            <p>This project is a personal blog website built using Node.js. It allows users to read, write, and delete blog posts. The website features a user-friendly interface designed to be responsive and accessible on various devices.</p>
         </section>
 
   <section>
@@ -13,7 +13,7 @@
             <ul>
                 <li>Read Blogs: Users can browse and read published blog entries.</li>
                 <li>Write Blogs: An editor for writing and publishing new blog posts.</li>
-                <li>Delete Blogs: Option for users to delete their own blog posts.</li>
+                <li>Delete Blogs: Users can delete their blog posts.</li>
                 <!-- Add more features if needed -->
             </ul>
         </section>
@@ -32,10 +32,11 @@
             <p>These instructions will get you a copy of the project up and running on your local machine.</p>
             <p><strong>Prerequisites:</strong> Node.js, npm</p>
             <p><strong>Installation:</strong></p>
-            <code>git clone https://github.com/your-username/your-project-name.git</code><br>
-            <code>cd your-project-name</code><br>
+            <code>git clone https://github.com/akshat04/Blogger.git</code><br>
+            <code>cd Blogger</code><be>
+            <p> You need to set up a MongoDB connection on your local device. And make changes in the App.js file for it to run on your local machine.
             <code>npm install</code><br>
-            <code>npm start</code>
+            <code>node app.js</code>
         </section>
 
  <section>
@@ -50,8 +51,8 @@
 
  <section>
             <h2>Contact</h2>
-            <p>Project Link: <a href="https://github.com/your-username/your-project-name">https://github.com/your-username/your-project-name</a></p>
-            <p>Email: your-email@example.com</p>
+            <p>Project Link: <a href="https://github.com/akshat04/blogger">https://github.com/akshat04/blogger</a></p>
+            <p>Email: akshatshrivastava0407@example.com</p>
         </section>
     </div>
 </body>
